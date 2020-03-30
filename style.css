@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;  
+  scroll-snap-type: y mandatory;
+  scroll-snap-align: start;
+}
+
+.container-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+li {
+  font-size: 24px;
+  display: inline;
+  list-style-type: none;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 10px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-a {
+    height: 100vh;
+    background: red;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url(https://workingnation.com/wp-content/uploads/2018/03/shutterstock_678565858-696x522.jpg);
+    background-position: center;
+    background-size: 100%;
+  }
+
+.section-b {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-c {
+  height: 100vh;
+  background-color: #0F0F0F;
+}
+
+.column {
+  width: 33.33%;
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #c1c1c1 ;
+}
+
+.column h1 {
+  padding: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+
+
